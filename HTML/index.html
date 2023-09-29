@@ -5,31 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listicle</title>
     <link rel="stylesheet" href="../CSS/styles.css">
+    
 </head>
 <body>
 
-    <div class="title">
+
+    <div class="title" >
+        
         <H1 id="mainTitle">5 Calamidades del Software</H1>
+
     </div>
+
+    <img src="../IMAGES/checosos.jpg" alt="" id="foto_perfil">
+    
+    <div class="separator_title">
+        <p></p>
+    </div>
+    <h2 class="text_profile">Alejandro Garduza</h2>
+    <p class="text_profile">Last Updated September 29</p>
     
     <div class="fisrtElement">
+        <h2>Code Smell</h2>
+        <p>Los code smells son patrones en el código fuente que indican posibles problemas de mantenibilidad o síntomas de diseños pobres. Algunos ejemplos comunes son nombres poco descriptivos, métodos muy largos, clases grandes, duplicación de código, y abuso de primitivas. Los code smells no son necesariamente bugs, pero sí señales que el código necesita ser refactorizado y mejorado. Ignorar los code smells puede llevar a una menor calidad y mayor dificultad de mantenimiento del código a largo plazo.</p>
+        <img src="../IMAGES/codesmell.jpg" alt="">
 
     </div>
 
     <div class="secondElement">
+        <h2>Deuda Técnica</h2>
+        <p>La deuda técnica se refiere al código que se entrega rápidamente sin los estándares de calidad adecuados, con la intención de reescribirlo "correctamente" después. Pero con frecuencia la deuda no se paga, llevando a una acumulación de código descuidado, parches rápidos, y diseños Short-term. Esto crea un lastre en el desarrollo futuro, y el código se vuelve progresivamente más difícil de mantener y extender. Idealmente la deuda técnica debería minimizarse, con refactorización continua para mantener la calidad.</p>
+        <img style="width: 500px;" src="../IMAGES/deuda-tecnica-scrum.png" alt="">
 
     </div>
 
     <div class="thirdElement">
-
+        <h2>Mal Identado</h2>
+        <p>El indentado consistente y correcto es esencial para la legibilidad del código. Mal indentado ocurre cuando las líneas no están sangradas de acuerdo a su bloque o jerarquía lógica. Esto confunde visualmente cuál código pertenece a qué bloque o bucle. El mal indentado dificulta seguir el flujo del programa y mantener el código. Es especialmente problemático en lenguajes sensibles a indentado como Python. Las guías de estilo de código deben seguirse estrictamente para evitar problemas de indentado.</p>
+        <img src="../IMAGES/identado.png" alt="">
     </div>
 
     <div class="fourthElement">
-
+        <h2>Mal Nombramiento de Variables y Funciones</h2>
+        <p>Los nombres de variables y funciones deben ser lo suficientemente específicos y descriptivos para denotar su propósito y uso. Por ejemplo, usar 'x' como nombre de variable no transmite nada de información. En su lugar, nombres como 'tiempo_transcurrido' o 'clientes_premium' son más claros. Los nombres largos y descriptivos apoyan la legibilidad y evitan confusiones. También hacen innecesarios los comentarios que solo explican variables ambiguas. Los nombres auto-documentados son claves en código limpio.</p>
+        <img src="../IMAGES/variablename.jpg" alt="">
     </div>
 
     <div class="fifthElement">
-        
+        <h2>Código Sin Documentar</h2>
+        <p>El código debe ser auto-documentado con nombres significativos y una estructura clara. Pero la documentación formal también es esencial. Esto incluye comentarios overview en la cabecera de archivos/clases, docstring para funciones, y comentarios explicativos en partes complejas. El código sin documentar es difícil de entender y mantener por otros desarrolladores (y uno mismo en el futuro). La falta de documentación leads to knowledge evaporation cuando el autor ya no está disponible. El código bien documentado es esencial para systems de gran escala, projects colaborativos, y mantener institutional knowledge.</p>
+        <img src="../IMAGES/code-comments.jpg" alt="">
     </div>
 
 </body>

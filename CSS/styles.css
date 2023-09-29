@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(238,237,231,255);
+}
+
+#mainTitle{
+    color: ghostwhite;
+    text-align: center;
+    
+}
+
+.title{
+    background-image: url('../IMAGES/banner.png') !important;
+    background-size: 100% 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#foto_perfil{
+    width: 200px;
+    border-radius: 100%;
+    bottom: 190px;
+    left: 50%;
+    transform: translate(-50%, -30%); 
+    display: block;
+    position: absolute;
+    margin: 10px solid black;
+}
+.separator_title{
+    min-height: 393px;
+}
+
+.text_profile{
+    text-align: center;
+}
